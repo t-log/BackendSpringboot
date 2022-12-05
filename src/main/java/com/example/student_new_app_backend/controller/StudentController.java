@@ -21,5 +21,10 @@ public class StudentController {
         return "Welcome to gallery";
     }
 
+    @GetMapping("/home")
+    public String homeClonePage(){
+        return "Welcome to Home";
+    }
+
 
 }
